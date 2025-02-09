@@ -1,7 +1,7 @@
 import random, string, urllib.request, json
 
 #root password
-password = '12345678'
+password = 'colab#678'
 
 #Setup sshd
 ! apt-get install -qq -o=Dpkg::Use-Pty=0 openssh-server pwgen > /dev/null
