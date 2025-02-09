@@ -24,5 +24,5 @@ get_ipython().system_raw('/usr/sbin/sshd -D &')
 !wget https://raw.githubusercontent.com/poluzhao/colab_ssh_frp/master/frpc.ini
 !wget https://raw.githubusercontent.com/poluzhao/colab_ssh_frp/master/frpc
 !chmod +x frpc
-!kill
+!killall -9 frpc
 !./frpc
